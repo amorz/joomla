@@ -1,5 +1,4 @@
 <?php
-// Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die('Restricted access');
 
 jimport('joomla.form.formfield');
@@ -13,10 +12,10 @@ class JFormFieldDateTime extends JFormField {
           JHtml::_('jquery.framework');  
           JHtml::_('bootstrap.framework');
           $doc->addStylesheet(JURI::root().'components/com_gckloosterveen/assets/css/calendar.css');
-          $doc->addStylesheet('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css');
-          $doc->addScript('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js');
-          $doc->addScript('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js');
-          $doc->addScript('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js');
+          $doc->addStylesheet('//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css');
+          $doc->addScript('//cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js');
+          $doc->addScript('//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js');
+          $doc->addScript('//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js');
          
 
           $javascript = 'jQuery(function() {';
